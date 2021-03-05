@@ -1,0 +1,32 @@
+{
+  "name": "rt-callrec-downloader",
+  "version": "0.0.1",
+  "description": "Rostelecom call records downloader.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mistical2008/node-download-callrec.git"
+  },
+  "keywords": [
+    "audio",
+    "download",
+    "puppeteer"
+  ],
+  "author": "Evgeniy Talko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mistical2008/node-download-callrec/issues"
+  },
+  "homepage": "https://github.com/mistical2008/node-download-callrec#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
